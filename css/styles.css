@@ -756,6 +756,8 @@ address {
   background-color: var(--accent-color);
 }
 
+/* Footer form */
+
 .footer-form {
   padding-top: 12px;
 }
@@ -774,6 +776,39 @@ address {
   color: var(--primary-white-color);
   padding-top: 20px;
   margin-bottom: 20px;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+
+  padding-left: 16px;
+
+  background-color: transparent;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  color: var(--primary-white-color);
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input:focus {
+  border-color: var(--secondary-background-color);
+}
+
+.footer-form::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-button {
@@ -803,6 +838,12 @@ address {
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form-button:hover,
+.footer-form-button:focus {
+  background-color: var(--secondary-accent-color);
 }
 
 .footer-form-icon {
@@ -810,10 +851,11 @@ address {
   width: 24px;
   height: 24px;
 
-  top: 13px;
+  top: 50%;
   right: 28px;
-  bottom: 13px;
+  transform: translateY(-50%);
 }
+
 /* Modal Window */
 
 .backdrop {
