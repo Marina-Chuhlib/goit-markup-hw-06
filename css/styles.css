@@ -881,6 +881,9 @@ address {
 .modal {
   padding: 40px;
 
+  width: 528px;
+  height: 581px;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -888,9 +891,6 @@ address {
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  width: 528px;
-  height: 581px;
 
   background: var(--primary-white-color);
   border-radius: 4px;
@@ -924,8 +924,8 @@ address {
 }
 
 .modal-icon {
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
 }
 
 /* Modal window Form */
@@ -936,7 +936,9 @@ address {
 }
 
 .modal-form-title {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+
+  height: 23px;
 
   font-weight: 700;
   font-size: 20px;
@@ -999,8 +1001,8 @@ address {
   left: 15px;
   transform: translateY(-50%);
 
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1054,6 +1056,7 @@ address {
   border: 1px solid var(--title-text-color);
   border-radius: 2px;
   margin-right: 8px;
+  margin-left: 14px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1090,7 +1093,7 @@ address {
 
   color: var(--primary-text-color);
 
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 /* Modal  form-button  */
