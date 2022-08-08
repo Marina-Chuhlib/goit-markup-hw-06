@@ -662,34 +662,28 @@ nav {
 
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-adds {
   margin-right: 70px;
 }
 
-.footer-socials {
-  padding-top: 12px;
-}
-
 .logo-footer {
   display: block;
   display: flex;
-  padding-bottom: 20px;
-  width: 145px;
-  margin-right: 70px;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 
 address {
   font-style: normal;
-  width: 231px;
-  margin-right: 70px;
 }
 
 .adds {
   display: block;
   margin-bottom: 9px;
-  width: 231px;
 
   color: var(--primary-white-color);
   font-weight: 400;
@@ -717,7 +711,7 @@ address {
 .socials-title {
   color: var(--primary-white-color);
   text-transform: uppercase;
-  padding: 20px 0;
+  margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 14px;
@@ -758,9 +752,6 @@ address {
 
 /* Footer form */
 
-.footer-form {
-  padding-top: 12px;
-}
 .subs-form {
   display: flex;
 }
@@ -774,7 +765,6 @@ address {
   text-transform: uppercase;
 
   color: var(--primary-white-color);
-  padding-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -811,16 +801,19 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-button {
-  margin: 0;
-  position: relative;
-}
-
 .footer-form-button {
+  display: flex;
+
+  position: relative;
+
   border: none;
-  padding: 0;
+
   margin: 0;
-  margin-right: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+
   margin-left: 12px;
 
   width: 200px;
@@ -882,7 +875,6 @@ address {
   padding: 40px;
 
   width: 528px;
-  height: 581px;
 
   position: absolute;
   top: 50%;
@@ -936,7 +928,7 @@ address {
 }
 
 .modal-form-title {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 
   height: 23px;
 
@@ -1093,7 +1085,7 @@ address {
 
   color: var(--primary-text-color);
 
-  margin-bottom: 29px;
+  margin-bottom: 30px;
 }
 
 /* Modal  form-button  */
